@@ -1,6 +1,6 @@
 import React from 'react';
-import Login from './Login';
 import Home from './Home';
+import Login from './LoginPage';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 const App =() =>
