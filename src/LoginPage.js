@@ -14,11 +14,11 @@ const Login=()=>{
 
             </div>
             <div>
-                <input type="password" placeholder='Enter EmailId'></input>
+                <input type="password" placeholder='Enter password'></input>
 
             </div>
             <div>
-                <button onClick={signup}type="submit"></button>
+                <button onClick={signup}type="submit">Login</button>
             </div>
         </div>
        </div>
