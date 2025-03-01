@@ -21,6 +21,7 @@ const Home = () => {
       <img src='Bikeee3.jpg'/>
       <h1>Royal Enfield</h1>
       <p>Top Speed </p>
+      <p>Price 1,48,000</p>
       <div id='colors'>
          <div className='colors1'></div>
           <div className='colors2'></div>
@@ -32,6 +33,7 @@ const Home = () => {
       <img src='Bikeeee1.webp'/>
       <h1>Royal Enfield</h1>
       <p>Top Speed </p>
+      <p>Price 2,00,290</p>
       <div id='colors'>
          <div className='colors1'></div>
           <div className='colors2'></div>
@@ -43,6 +45,7 @@ const Home = () => {
       <img src='Bikeeee2.webp'/>
       <h1>Royal Enfield</h1>
       <p>Top Speed </p>
+      <p>Price 3,50,400</p>
       <div id='colors'>
          <div className='colors1'></div>
           <div className='colors2'></div>
@@ -54,6 +57,7 @@ const Home = () => {
       <img src=' bikee4.jpg'/>
       <h1>Royal Enfield</h1>
       <p>Top Speed </p>
+      <p>Price 2,80,600</p>
       <div id='colors'>
          <div className='colors1'></div>
           <div className='colors2'></div>
