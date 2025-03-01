@@ -1,28 +1,31 @@
+import React from 'react'
+import './Login.css'
+import './Home'
 
-  
-//import React, {Component} from 'react';
-//import "./signin.css";
+const login = () => {
+  function signup(){
+    window.location.replace("/home")
+  }
+  return (
+    <div className='parent'>
+      <div className='child'>
+        <div>
+          <h2 className='login'>LoginPage</h2>
+          <input type='email' placeholder='Enter email'></input>
+        </div>
+        <div>
+          <input type='password' placeholder='Enter password'></input>
+        </div>
+        <div className='loginbutton'>
+          <button onClick={signup} type='submit' >Login</button>
+        </div>
 
-//class Signin extends Component{
-  
- // initiate state
-  //constructor(props) {
-    //super(props);
-    //this.state = {
-      //username: 'username',
-      //password: 'password', 
-    //}
-  //}
-  
-  
-  /* the rest of the code ... */
+      </div>
 
-//}    
+    </div>
+  )
+}
 
-
-
-
-
-  
+export default login
 
 
